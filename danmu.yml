@@ -53,8 +53,8 @@ spring:
 
 # LOGGING
 logging:
-  path:logs
-  file:log.log
+  #path:logs
+  #file:log.log
   level:
     com.acfun:'DEBUG'
     org.springframework:'WARN'
