@@ -25,11 +25,11 @@ spring:
   redis:
     host:192.168.60.239
     port:6380
-    pool123:
-      max-idle:8
-      min-idle:0
-      max-active:100
-      max-wait:15000
+    #pool:
+      #max-idle:8
+      #min-idle:0
+      #max-active:100
+      #max-wait:15000
 
 # FREEMARKER (FreeMarkerAutoConfiguration)
 spring:
