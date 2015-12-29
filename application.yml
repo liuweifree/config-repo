@@ -1,0 +1,15 @@
+# HTTP encoding (HttpEncodingProperties)
+spring:
+  http:
+    encoding:
+      charset:UTF-8
+      enabled:true
+      force:true
+
+# MONGODB (MongoProperties)
+spring:
+  data:
+    mongodb:
+      host:192.168.99.100
+      port:27017
+      database:danmu_new
