@@ -1,11 +1,3 @@
-# HTTP encoding (HttpEncodingProperties)
-spring:
-  http:
-    encoding:
-      charset:'UTF-8'
-      enabled:true
-      force:true
-
 # MONGODB (MongoProperties)
 spring:
   data:
