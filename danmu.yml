@@ -55,9 +55,10 @@ spring:
 logging:
   path:logs
   file:log.log
-  level.com.acfun:DEBUG
-  level.org.springframework:WARN
-  level.org.hibernate:WARN
+  level:
+    com.acfun:DEBUG
+    org.springframework:WARN
+    org.hibernate:WARN
 
 # \u7528\u6237\u5F39\u5E55\u662F\u5426\u4FDD\u5B58
 danmu:
@@ -71,7 +72,7 @@ flash:
   heightPercent:1.5 
   maxSize:50
 #\u8868\u60C5\u6BD4\u4F8B
-  expressionScale:0.8
+  #expressionScale:0.8
 #\u5F39\u5E55\u901F\u5EA6
   speed1:0.3
   speed2:0.3
