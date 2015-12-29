@@ -16,7 +16,10 @@ spring:
       port:27017
       database:danmu_new
 
-danmu.user.save.enabled:true
+danmu:
+  user:
+    save:
+      enabled: true
 
 video.0:0.flv
 colors:#ffffff,#ffd926,#ff4f11,#fc33de,#aaaaaa,#42deff,#61a0ff,#46f8bb
