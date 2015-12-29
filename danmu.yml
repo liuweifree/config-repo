@@ -76,7 +76,6 @@ flash:
   #speed2: '0.3'
   #offY: '50'
 
-# \u89C6\u9891top\u6570
-video.0=0.flv
+video.0:0.flv
 colors:#ffffff,#ffd926,#ff4f11,#fc33de,#aaaaaa,#42deff,#61a0ff,#46f8bb
 expressions:1.gif,2.gif,3.gif,4.gif,5.gif,6.gif,7.gif,8.gif
