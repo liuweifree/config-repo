@@ -16,4 +16,4 @@ spring:
       port:27017
       database:danmu_new
 
-video.0:0.flv
+${video.0:0.flv}
