@@ -74,7 +74,7 @@ flash:
 #\u8868\u60C5\u6BD4\u4F8B
   #expressionScale:0.8
 #\u5F39\u5E55\u901F\u5EA6
-  speed1: '0.3'
+  #speed1: '0.3'
   speed2: '0.3'
   offY: '50'
 
