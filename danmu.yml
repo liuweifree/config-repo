@@ -1,23 +1,2 @@
 server:
   port: 8780
-
-# HTTP encoding (HttpEncodingProperties)
-spring:
-  http:
-    encoding:
-      charset:UTF-8
-      enabled:true
-      force:true
-
-spring:
-  data:
-    mongodb:
-      host:192.168.99.100
-      port:27017
-      database:danmu_new
-
-danmu.user.save.enabled:true
-
-spring.video.1:0.flv
-colors:#ffffff,#ffd926,#ff4f11,#fc33de,#aaaaaa,#42deff,#61a0ff,#46f8bb
-expressions:1.gif,2.gif,3.gif,4.gif,5.gif,6.gif,7.gif,8.gif
