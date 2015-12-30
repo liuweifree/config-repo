@@ -28,6 +28,13 @@ eureka:
 logging:
   level:
     com.netflix.discovery: 'OFF'
+
+# FREEMARKER (FreeMarkerAutoConfiguration)
+spring:
+  freemarker:
+    cache:false
+    suffix=.ftl
+    template-loader-path:classpath:/templates/
  
 #danmu:
 #  user:
