@@ -28,8 +28,8 @@ eureka:
 logging:
   level:
     com.netflix.discovery: 'OFF'
-spring:
- danmu:
+ 
+danmu:
   user:
     save:
       enabled:true
