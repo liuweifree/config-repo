@@ -2,7 +2,6 @@ server:
  port:8780
 
 spring:
-  profiles: cloud
   data:
     mongodb:
       uri: ${vcap.services.${PREFIX:}mongodb.credentials.uri}
