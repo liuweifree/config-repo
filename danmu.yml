@@ -2,6 +2,7 @@ server:
   port: 8787
 
 spring:
+  profiles: cloud
   data:
     mongodb:
       uri:${vcap.services.${PREFIX:}//192.168.99.100:27017/danmu_new}
