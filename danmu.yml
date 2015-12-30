@@ -44,22 +44,3 @@ security:
     name:abc
     password:abc
     role:ADMIN
-
-danmu:
-  user:
-    save:
-      enabled:true
-
-flash:
-  widthPercent:1.5
-  heightPercent:1.5
-  maxSize:50
-  expressionScale:0.8
-  speed1:0.3
-  speed2:0.3
-  offY:50
-
-danmu:
-  video.0:0.flv
-  colors:#ffffff,#ffd926,#ff4f11,#fc33de,#aaaaaa,#42deff,#61a0ff,#46f8bb
-  expressions:1.gif,2.gif,3.gif,4.gif,5.gif,6.gif,7.gif,8.gif
