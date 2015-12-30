@@ -20,18 +20,31 @@ spring:
       cache:false
       suffix:.ftl
       template-loader-path:classpath:/templates/
-
+    http:
+      encoding:
+        charset:UTF-8
+        enabled:true
+        force:true
+        gzip:
+          enabled:true
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
     metadataMap:
       instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${server.port}}}
-  client:
+    client:
     registryFetchIntervalSeconds: 5
 
 logging:
   level:
     com.netflix.discovery: 'OFF'
+
+# SECURITY (SecurityProperties)
+security:
+  user:
+    name:abc
+    password:abc
+    role:ADMIN
 
 #danmu:
 #  user:
