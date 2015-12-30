@@ -29,10 +29,10 @@ logging:
   level:
     com.netflix.discovery: 'OFF'
  
-danmu:
-  user:
-    save:
-      enabled:true
+#danmu:
+#  user:
+#    save:
+#      enabled:true
  #video.0:0.flv
  #colors:#ffffff,#ffd926,#ff4f11,#fc33de,#aaaaaa,#42deff,#61a0ff,#46f8bb
  #expressions:1.gif,2.gif,3.gif,4.gif,5.gif,6.gif,7.gif,8.gif
