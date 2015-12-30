@@ -5,4 +5,4 @@ spring:
   profiles: default
   data:
     mongodb:
-      uri:${vcap.services.${PREFIX:}//192.168.99.100:27017/danmu_new}
+      uri:${vcap.services.${PREFIX:}mongodb.credentials.uri:mongodb://${MONGODB_HOST:localhost}:${MONGODB_PORT:27017}/stores}
