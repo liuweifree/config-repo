@@ -4,4 +4,4 @@ server:
 spring:
   data:
     mongodb:
-      uri: ${vcap.services.${PREFIX:}mongodb.credentials.uri}
+      uri: ${mongodb://192.168.99.100:27017/stores}
