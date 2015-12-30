@@ -37,10 +37,3 @@ eureka:
 logging:
   level:
     com.netflix.discovery: 'OFF'
-
-# SECURITY (SecurityProperties)
-security:
-  user:
-    name:abc
-    password:abc
-    role:ADMIN
